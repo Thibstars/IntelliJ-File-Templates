@@ -2,5 +2,4 @@
 #parse("File Header.java")
 public enum ${NAME} {
     INSTANCE;
-    // If needed, add fields, getters, setters and toString()
 }

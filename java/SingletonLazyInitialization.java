@@ -1,17 +1,18 @@
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
 #parse("File Header.java")
 public final class ${NAME} {
-    private static ${NAME} classInstance = null;
+    private static final ${NAME} INSTANCE = null;
 
     private ${NAME}() {
         // Constructor not publicly available
     }
 
     public static synchronized ${NAME} getInstance() {
-        if(classInstance == null) {
-            classInstance = new ${NAME}();
+        if(INSTANCE == null) {
+            INSTANCE = new ${NAME}();
         }
-        return classInstance;
+
+        return INSTANCE;
     }  
     
     @Override
