@@ -1,6 +1,6 @@
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
 #parse("File Header.java")
-public final class ${NAME}{
+public final class ${NAME} {
     private static ${NAME} classInstance = new ${NAME}();
 
     private ${NAME}() {
