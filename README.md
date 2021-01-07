@@ -3,7 +3,7 @@ A collection of file templates to be used in [Jetbrains IntelliJ IDEA](https://w
 
 ## Usage ##
 Simply add the content of a template in a new template here:
-Settings/Preferences > Editor > File and Code Templates
+Settings/Preferences > Editor > File and Code Templates.
 
 Save the changes. When you are creating a new file, you will now see the newly added template among the options.
 
